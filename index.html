@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shopping List</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+  
+      <h1>Shopping List</h1>
+    </header>
+
+    <form id="item-form">
+      <input type="text" id="item-input" placeholder="Enter Item" required />
+      <button type="submit"><i class="fa-solid fa-plus"></i> Add</button>
+    </form>
+
+    <input type="text" id="filter" placeholder="Filter Items" />
+
+    <ul id="item-list" class="items">
+      <!-- Items appear here -->
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
